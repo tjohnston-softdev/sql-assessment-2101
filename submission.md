@@ -14,6 +14,7 @@ FROM asthma_pts AS a
 ```
 
 Only 100 rows are returned, and She expected 3-4 thousand records. Can you identify what went wrong with the query?
+
 \
 **Answer:**
 
@@ -31,6 +32,7 @@ In order to improve her database performance, Dr. Brown tries to add a primary k
 | 9876 | 2003-10-11 | H441. |
 | 9876 | 2008-05-19 | H33.. |
 | 4666 | 2001-01-01 | H33.. |
+
 \
 **Answer:**
 
@@ -48,6 +50,7 @@ Based on an excerpt from the `asthma_patients` table. How could she query this i
 |---|---|---|---|
 | 9876 | 1990 | F | 1999-05-06 |
 | 4666 | 1975 | M | 1994-12-08 |
+
 \
 **Answer:**
 
@@ -68,6 +71,7 @@ GROUP BY gender;
 ### Question 04
 
 Dr Brown wants to return the 10 patient identifiers (`patient_id`) with the most recent `event_date` fields from the `clinical_events` table in [question 02](#question02). Write a query to retrieve that data.
+
 \
 **Answer:**
 
@@ -91,6 +95,7 @@ SELECT COUNT(*) FROM clinical_events;
 ```
 
 What is wrong with this query in terms of what Dr. Brown is trying to achieve? What should it be instead?
+
 \
 **Answer:**
 
@@ -110,6 +115,7 @@ That way, the query will count the number of different patient IDs that appear. 
 ### Question 06
 
 Dr. Brown looks at the mean height recorded in the database by summing all recorded heights and dividing by the number of recordings. She is surprised to see that the mean height is 2.01 and the maximum is 245. What has she not taken into account about how the data is being recorded?
+
 \
 **Answer:**
 
@@ -133,6 +139,7 @@ WHERE a.event_date <= ‘2018-10-01’;
 ```
 
 The query takes a long time to run and someone suggests adding indexes to the tables. What fields would be best to index on? What type of index would you use?
+
 \
 **Answer:**
 
@@ -157,6 +164,7 @@ FROM copd_pts;
 ```
 
 The query returns 4045 rows and Dr. Brown assumes that this is the number of patients with either COPD or Asthma in her database, is she correct?
+
 \
 **Answer:**
 
@@ -174,6 +182,7 @@ SELECT COUNT(DISTINCT patient_id)
 ### Question 09
 
 Dr. Brown wants to find all female patients with records that have the read code "H441." in the 10 years since their asthma diagnosis. Using the `asthma_patients`  table from [question 03](#question03) and the `clinical_events`  table from [question 02](#question02), construct a query to produce the information she requires.
+
 \
 **Answer:**
 
@@ -209,6 +218,7 @@ patient_id,Event_date,Read_code,Read_term
 1892,”2003-10-11”,”H441.”,”No “Cannabinosis”, other”
 7482,”2013-04-21”,”XE2Ne”, “Diabetes monitored”
 ```
+
 \
 **import_script.sql**
 
@@ -223,6 +233,7 @@ WITH
 	ROWTERMINATOR = '\n'
 );
 ```
+
 \
 **Answer:**
 
