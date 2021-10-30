@@ -265,4 +265,4 @@ I don't consider my mishap to be *their* fault. It is indeed *my* fault for usin
 
 [I decided to cut off my rant here.]
 
-tl;dw: I always use free and/or open source software as long as it is possible, and I suggest that you do the same.
+tl;dw: I always use free and/or open source software as long as it is possible, and I would implore others to do the same.
