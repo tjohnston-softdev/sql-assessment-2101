@@ -263,4 +263,5 @@ The person who put together the assessment document inserted the sample document
 
 I don't consider my mishap to be *their* fault. It is indeed *my* fault for using crappy knock-off software as opposed to the genuine Microsoft product which *every*body uses. I love it how everybody just low-key assumes that we are using the Microsoft ecosystem and have ready-access to the full office suite at any time from any device. In other words, they just send a `.docx` file and subconsciously assume that we know what to do with it. In all fairness, I have been a Microsoft user my whole life and I do use the free [cloud version](https://www.microsoft.com/en-au/microsoft-365/onedrive/online-cloud-storage) of Office when I cannot avoid it but I think we should have more of a choice in the matter. Has it ever occurred that maybe I *want* to use software that isn't always dependant on an internet connection or weighted down by DRM restrictions? I could write more about this but I honestly feel like that it will be wasted effort.
 
-tl;dw: I always use free and/or open source software as long as it is possible, and I would implore others to do the same.
+---
+
