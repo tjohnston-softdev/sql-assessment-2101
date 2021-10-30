@@ -255,14 +255,12 @@ patient_id,event_date,read_code,read_term
 ```
 
 \
-**Append (2021-10-27):**
+**Append (2021-10-27, 30):**
 
 If a property in the `WITH` object is specified multiple times, it may cause an error, so please get rid of duplicate properties if there are any.
 
 The person who put together the assessment document inserted the sample documents side-by-side in an image. When I attempted to view the document in [LibreOffice](https://www.libreoffice.org/), the SQL script in the image appeared all glitchy and I honestly couldn't tell what I was supposed to be reading. That is why I did not notice the duplicate properties when I wrote the original submission. I only realized it just now as I was converting it to markdown. I wrote several paragraphs detailing every possibility *except* for the one they actually wanted me to look at. I ran the original `.docx` file through a [PDF converter](https://smallpdf.com/word-to-pdf) and the image came out correctly. I was able to understand the script a little better.
 
-I don't consider my mishap to be *their* fault. It is indeed *my* fault for using crappy knock-off software as opposed to the genuine Microsoft product which *every*body uses. I love it how everybody just low-key assumes that we are using the Microsoft ecosystem and have ready-access to the full office suite at any time from any device. In other words, they just send a `.docx` file and subconsciously assume that we know what to do with it. In all fairness, I have been a Microsoft user my whole life and I do use the free [cloud version](https://www.microsoft.com/en-au/microsoft-365/onedrive/online-cloud-storage) of Office when I cannot avoid it but.....
-
-[I decided to cut off my rant here.]
+I don't consider my mishap to be *their* fault. It is indeed *my* fault for using crappy knock-off software as opposed to the genuine Microsoft product which *every*body uses. I love it how everybody just low-key assumes that we are using the Microsoft ecosystem and have ready-access to the full office suite at any time from any device. In other words, they just send a `.docx` file and subconsciously assume that we know what to do with it. In all fairness, I have been a Microsoft user my whole life and I do use the free [cloud version](https://www.microsoft.com/en-au/microsoft-365/onedrive/online-cloud-storage) of Office when I cannot avoid it but I think we should have more of a choice in the matter. Has it ever occurred that maybe I *want* to use software that isn't always dependant on an internet connection or weighted down by DRM restrictions? I could write more about this but I honestly feel like that it will be wasted effort.
 
 tl;dw: I always use free and/or open source software as long as it is possible, and I would implore others to do the same.
