@@ -4,7 +4,7 @@ This is the submission for a technical SQL assessment that I was invited to comp
 
 The assessment was originally completed across 28-29 January 2021. The submission was converted to markdown on 27 October 2021 and shared publicly on 3 November 2021.
 
-[Assessment Submission](./submission/readme.md)
+[Assessment Submission](./submission.md)
 
 ---
 
